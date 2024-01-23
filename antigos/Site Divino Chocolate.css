@@ -1,0 +1,153 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+header {
+    margin: 44px 0 144px 76px;
+
+}
+
+.top-header{
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+
+}
+
+.button-header {
+    background: #aa9099;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+
+section {
+    display: inline-block;
+
+}
+
+
+h1{
+    
+    font-size: 50px;
+    font-weight: 300px;
+    line-height: 60px;
+    color: #515151;
+    width: 500px;
+}
+
+h2{
+
+    font-size: 28px;
+    font-weight: 200px;
+    line-height: 31px;
+    color: #515151;
+    width: 450px;
+
+}
+
+.logo-imag { 
+    width: 600px;
+    height: 600px;
+    margin-left: 25px;
+
+}
+
+p{
+   
+    font-size: 12px;
+    font-weight: 500px;
+    line-height: 29px;
+    color: #515151;
+    width: 450px;
+    }
+
+
+button {
+    background: #aa9099;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 400px;
+    font-size: 19px;
+    line-height: 29px;
+    color:  white;
+}
+
+
+
+@media screen and (max-width: 900px) {
+.top-header {
+    margin-left: 20px;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    
+    text-align: center;
+}
+
+.logo-imag {
+    margin: 0px auto;
+    display: block;
+    width: auto;    
+   
+    
+    
+}
+
+
+p {
+    
+    margin: 15px 48px;
+    display: block;
+    width:auto;
+    height: auto;
+    position: static;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400px;
+    font-size: 36px;
+    line-height: 52px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width:auto;
+    height: auto;
+    position: static;
+}
+
+h2 {
+    font-weight: 300px;
+    font-size: 25px;
+    line-height: 52px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width:auto;
+    height: auto;
+    position: static;
+}
+
+button {
+    margin: 0px auto;
+    display: block;
+}
+}
