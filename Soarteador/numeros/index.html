@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda</title>
+  </head>
+  <body>
+    <input placeholder="Digite o Nome" />
+    <p></p>
+
+    <button onclick="Search()">Contato</button>
+  </body>
+
+  <script>
+    let p = document.querySelector("p");
+    let input = document.querySelector("input");
+
+    const contacts = [
+      { name: "Sebastião", number: "(47) 99987-6998" },
+      { name: "Fernanda", number: "(47) 99233-0977" },
+      { name: "Solange", number: "(47) 99654-7778" },
+      { name: "Ana Clara", number: "(47) 99164-6787" },
+    ];
+
+    function Search() {
+      for (let i = 0; i < contacts.length; i++) {
+        if (input.value === contacts[i].name) {
+          p.innerHTML = `Contato Encontrado Nome:${contacts [i].name} tel: ${contacts [i].number}`;
+
+          break;
+        } else {
+          p.innerHTML = "Contato Não Encontrado, tente novamente.";
+        }
+      }
+    }
+  </script>
+</html>
